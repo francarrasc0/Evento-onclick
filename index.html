@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onclick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <h1>Dojonary</h1>
+        <input type="text" id="search" placeholder="Search">
+        <button onclick="logOut(this)" class="btn"> Login</button>
+    </nav>
+
+    <div class="main">
+
+        <div class="col-1">
+            <div class="ninja-1">
+                <div class="vertical">
+                    <h1>ninja</h1>
+                    <p class="noun">noun</p>
+                    <p>Plural:<span class="ninja">ninjas</span></p>
+                    <button onclick="showMessage(this)" class="btn-2">13 likes</button>
+                </div>
+                <div class="info">
+                    <p class="content"> A practitioner skilled in the
+                        <span class="underline">Japanese</span>
+                        art of
+                        <span class="underline">ninjutsu</span>
+                    </p>
+                </div>
+            </div>
+            <div class="ninja-1">
+                <div class="vertical">
+                    <h1>ninja</h1>
+                    <p class="noun">noun</p>
+                    <p>Plural:<span class="ninja">ninjas</span></p>
+                    <button onclick="showMessage(this)" class="btn-2">37 likes</button>
+                </div>
+                <div class="info">
+                    <p class="content"> A <span class="underline">programmer</span> who brakes down problems with <span
+                            class="underline">zen</span>-like focus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2">
+            <div class="dojo">
+                <h1 class="dojonary">Dojonary is defined by <span class="you">YOU</span></h1>
+                <button onclick="hide(this)" class="add">Add Definition</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
